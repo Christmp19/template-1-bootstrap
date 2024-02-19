@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js" defer></script>
     <title>Accueil</title>
 </head>
+
 <body>
-    <h1>Accueil</h1>
+    <div class="home-banner section-bgcolor">
+        <header class="navbar navbar-expand-md navbar-light px-5 py-4">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav ms-auto me-auto">
+                    <li class="nav-item ms-5"><a class="nav-link" href="#">À propos</a></li>
+                    <li class="nav-item ms-5"><a class="nav-link" href="#">Service</a></li>
+                    <li class="nav-item ms-5"><a class="nav-link" href="#">Avocats</a></li>
+                    <li class="nav-item ms-5"><a class="nav-link active" href="index.html">Maison</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle ms-5" data-bs-toggle="dropdown"
+                            href="#">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link ms-5" href="#">Contact</a></li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success py-2 px-4 mx-3 bouton-color" type="submit">Parlons</button>
+                </form>
+            </div>
+        </header>
+        <section class="container section-padding">
+            <div class="row mb-3 d-flex align-items-center">
+                <div class="col-12 col-lg-6 ">
+                    <h1>Le cabinet d'avocats le meilleur et le plus solide remporte le monde</h1>
+                    <p class="lead">
+                        Soumettez quel homme rampant était l'image que vous séchez moins chaque vie, notre male est
+                        vert, que le début vivant apparaisse bouge la bete.
+                    </p>
+                    <a href="#" class="btn  text-capitalize text-light mt-2 px-5 py-3 bouton-a-propos">Plus à propos de
+                        nous</a>
+
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="img/banner_bg.png" alt="banner" class="img-fluid rounded">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <main class="container-fluid py-3">
+        <div class="row my-5 py-3">
+            <div class="col-8 offset-2 ">
+                <h1 class="h1-disign text-center">
+                    La vérité des avocats n'est pas la vérité mais la cohérence ou une opportunité cohérente
+                </h1>
+            </div>
+        </div>
+        <section class="container my-3 py-3">
+            <div class="row">
+                <div class="col-12 col-lg-8 me-0">
+                    <img src="img/about_1.png" alt="banner" class="img-fluid rounded images">
+                </div>
+                <div class="col-12 col-lg-4 me-0">
+                    <img src="img/about_2.png" alt="banner" class="img-fluid rounded images">
+                </div>
+            </div>
+            <div class="row my-3 py-3">
+                <div class="col-8 offset-2 ">
+                    <figcaption class="figure-caption text-center">La graine de mouche a sa propre lumière au plus
+                        profond
+                        de notre viande terrestre qui vous amènera tous les
+                        deux ensemble, divisez les étoiles aimables du firmament le soir des mers, que les baleines de
+                        l'air qui
+                        se rassemblent soient les sixièmes. Les semences ne le feront pas. La créature qu'elle aurait
+                        vécue
+                        aurait été dite bénie. La règle plac aussi les saisons était elle-même pendant des jours
+                        soumettre son
+                        grand mâle lui-meme.
+                    </figcaption>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-service">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-12 col-md-6 col-lg-3 px-3">
+                        <div class="card-service">
+                            <div class="bloc-img">
+                                <img src="img/icon/service_1.svg" alt="">
+                            </div>
+    
+                            <div class="content">
+                                <h3>conseils juridique</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
 </body>
+
 </html>
