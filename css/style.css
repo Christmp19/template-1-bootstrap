@@ -61,11 +61,6 @@
     background-color: rgb(246, 238, 238);
 }
 
-.images-logo {
-    width: 50px;
-    height: 50px;
-}
-
 .card-service {
     background: white;
     padding: 50px 30px;
@@ -155,7 +150,7 @@
 
 .footer-custom{
     background-color: #060b4c;
-    margin: 50px 0;
+    margin-top: 50px;
     padding: 30px 50px;
 }
 
@@ -183,4 +178,12 @@
     height: 100px;
     display: block;
     margin: auto;
+}
+
+.slick-prev, .slick-prev, .slick-next, .slick-next{
+background-color: #ab7636!important;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
 }
