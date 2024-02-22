@@ -46,4 +46,9 @@
   .forms-custom {
     margin-bottom: 15px;
   }
+
+  .banner-css{
+    max-width: 350px;
+    margin-left: 15px;
+  }
 }
