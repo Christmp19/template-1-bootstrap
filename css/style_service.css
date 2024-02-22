@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-bgcolor {
+    background-image: url('../img/breadcrumb.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.section-padding {
+    padding: 130px 0;
+    text-align: center;
+
+}
+
+.bouton-color {
+    color: #ab7636;
+    border-radius: 30px;
+    border-color: #000000;
+}
+
+.bouton-color:hover {
+    background-color: #000000;
+}
+
+.bouton-a-propos {
+    background: #ab7636;
+    transition: background-color 0.3s ease;
+
+}
+
+.bouton-a-propos:hover {
+    background-color: #000000;
+}
+
+.h1-disign {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images {
+    height: 400px;
+    width: 650px;
+}
+
+.items-css {
+    background-color: #ab7636;
+    border-radius: 50%;
+}
+
+.fond-ecrans {
+    background-color: rgb(246, 238, 238);
+}
+
+.card-service {
+    background: white;
+    padding: 20px 10px;
+    text-align: center;
+    height: 100%;
+
+}
+
+.card-service .content {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+
+}
+
+.card-service .bloc-img img {
+    width: 40px;
+    margin: 20px 0;
+
+}
+
+.card-service .content h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.section-service {
+    padding: 90px 0;
+    background-color: rgb(239, 237, 234);
+}
+
+.section-service2 {
+    background-color: rgb(239, 237, 234);
+    padding: 20px 0;
+    margin: 30px 0;
+
+}
+
+.text-bouton {
+    background-color: #ab7636;
+    padding: 50px 10px;
+    margin: 50px 0;
+    text-align: center;
+    line-height: 60px;
+}
+
+.text-couleur {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bouton-a-propos2 {
+    background: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.bouton-a-propos2:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.fond {
+    background-image: url('../img/Quote.png');
+    background-size:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.text2{
+    margin-top: 100px;
+    padding-top: 20px 0;
+}
+
+.footer-custom{
+    background-color: #060b4c;
+    margin-top: 50px;
+    padding: 30px 50px;
+}
+
+.logo-footer{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 150px;
+}
+
+.footer-custom-div{
+    padding: 60px;
+}
+
+.text-h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.bloc-temoignage{
+    text-align: center;
+}
+
+.bloc-temoignage img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.slick-prev, .slick-prev, .slick-next, .slick-next{
+background-color: #ab7636!important;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
+}
+
+.bouton-color2{
+    background-color: #ab7636;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    margin: 30px 0;
+    border-radius: 0;
+}
+
+.bouton-color2:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.container-marge{
+    margin: 50px 30px;
+    padding: 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
