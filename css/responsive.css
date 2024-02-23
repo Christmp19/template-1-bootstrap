@@ -51,4 +51,18 @@
     max-width: 350px;
     margin-left: 15px;
   }
+
+  .card-service .bloc-img img {
+    width: 30px;
+    margin: 10px 0;
+
+}
+
+.card-service {
+  background: white;
+  padding: 10px 5px;
+  text-align: center;
+  height: 100%;
+
+}
 }
