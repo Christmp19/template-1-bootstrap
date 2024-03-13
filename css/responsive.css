@@ -65,4 +65,85 @@
   height: 100%;
 
 }
+.navbar{
+  background-color:#ebbb81;
+  margin: auto;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+  color: white;
+  font-size: 25px;
+}
+
+.navbar .navbar-nav{
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+
+.bouton-color {
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  border-color: #000000;
+  font-size: 20px;
+}
+
+.bouton-color:hover {
+  background-color: #000000;
+}
+
+.hauteur-div{
+  margin-top: 25px;
+}
+}
+
+@media(max-width: 1000px) {
+  .navbar{
+    background-color:#ebbb81;
+    margin: auto;
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 25px;
+  }
+  
+
+  .navbar .navbar-nav{
+    text-align: left !important;
+    margin-left: 0 !important;
+  }
+  
+  .bouton-color {
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    border-color: #000000;
+    font-size: 20px;
+  }
+  
+  .bouton-color:hover {
+    background-color: #000000;
+  }
+}
+
+#btnBackToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #ab7636;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+}
+
+#btnBackToTop:hover {
+  background-color: black;
 }
